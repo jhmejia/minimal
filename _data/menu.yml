@@ -26,9 +26,6 @@ entries:
       - title: linkedin
         url: https://www.linkedin.com/in/johnhenrymejia/
 
-  - title: posts
-    post_list: true
-      
   # - title: all posts
   #   post_list:
   #     limit: 5
