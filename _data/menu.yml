@@ -1,0 +1,58 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: summary
+    entries:
+      - title: systems engineer | software engineer
+      - title: experience
+        entries:
+          - title: 2024 - lockheed martin | systems engineer
+          - title: 2023 - atlassian | site reliability engineer intern
+          - title: 2022 - ultra electronics | software engineer intern
+      - title: education
+        entries:
+          - title: 2024 - texas christian university | b.s. computer science
+
+  - title: projects
+    entries:
+      - title: 2024 - <a href="https://classifai.tcu.edu">classifai </a> (educational portal )
+      - title: 2024 - real-time object detection using yolo
+      - title: 2023 - google image scraper and classifier
+  - title: contact
+    entries:
+      - title: email
+        url: mailto:jhmrow@gmail.com
+      - title: linkedin
+        url: https://www.linkedin.com/in/johnhenrymejia/
+
+  - title: posts
+    post_list: true
+      
+  # - title: all posts
+  #   post_list:
+  #     limit: 5
+  #     show_more: true
+  #     show_more_text: See archive...
+  #     show_more_url: archive.html
+
+  # - title: posts by category
+  #   post_list:
+  #     category: example2
+  #     show_more: true
+  #     show_more_text: See more posts...
+  #     show_more_url: example2-archive.html
+
+  # - title: rss
+  #   url: feed.xml
+  
+  # - title: another list
+  #   entries:
+  #     - title: with subitems
+  #       entries:
+  #         - title: with subsubitems
+  #         - title: example page
+  #           url: about
+  # - title: PRO TIP
+  #   entries:
+  #     - title: to edit this menu, edit _data/menu.yml file
