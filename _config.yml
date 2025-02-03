@@ -20,12 +20,12 @@
 
 title: john henry mejia
 email: jhmrow@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: > # this means to ignore newlines until "baseurl:"
   Portfolio for John Henry Mejia
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jhmejia.com" # the base hostname & protocol for your site, e.g. http://example.com
 favicon: "favicon.png"
-goat_counter: "jhmejia"
+
 
 github_username:  jhmejia
 
@@ -34,9 +34,14 @@ github_username:  jhmejia
 remote_theme: riggraz/no-style-please
 plugins:
   - jekyll-feed
+  - jektex
 
 theme_config:
-  appearance: "light"
+  appearance: "light" # can be "light", "dark" or "auto"
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
+  lowercase_titles: true # show titles in lowercase in lists
 
 # Exclude from processing.
 # The following items will not be processed, by default.
